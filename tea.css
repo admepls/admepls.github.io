@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	font-family: Helvetica, Arial, "sans-serif";
+	background-position: center;
+}
+
+h2, h3, h4, h5{
+	color: white;
+	text-align: center;
+}
+
+.nav{
+	max-width: 100%;
+
+}
+.nav-holder{
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
+.nav img{
+	height: 50px;	
+	padding-left: 10px;
+}
+
+.nav ul{
+	display: flex;
+}
+.nav ul li {
+	margin-right: 10px;
+}
+.nav ul li a{
+	color: rgba(255,255,255,.90);
+}
+
+.banner{
+	width: 100%;
+	padding-top: 70px;
+	opacity: 0.9;
+	display: flex;
+	justify-content: center;
+
+}
+#mission{
+	height: 700px;
+	width: 1200px;
+	background-image: url("tea cozy/img-mission-background.webp");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	
+	
+}
+#mission .text-holder{
+	width: 100%;
+	background-color: black;
+}
+.feature{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.feature-holder{
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.img-holder{
+	width: auto;
+	height: auto;
+}
+.img-holder img{
+	max-width: 300px;
+	max-height: 200px;
+}
+
+	/*Locations*/
+.locations{
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+.location-holder{
+	width: 1200px;
+	height: 500px;
+	background-image: url("tea cozy/img-locations-background.webp");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+	
+}
+.address{
+	margin: 20px;
+	display: flex;
+	flex-flow: column;
+	flex-basis: 300px;
+	background-color: black;
+	
+}
+
+	/* Footer */
+.contact{
+	
+}
+.contact-holder{
+	
+}
+.copyright h5{
+	text-align: left;
+	margin-left: 20px;
+}
